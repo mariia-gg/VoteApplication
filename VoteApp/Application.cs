@@ -31,7 +31,6 @@ internal class Application
 
     private void HandleCommand(string? command)
     {
-       
         command = command?.ToLower();
 
         if (command == "exit")
