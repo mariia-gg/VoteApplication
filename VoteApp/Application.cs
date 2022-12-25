@@ -24,12 +24,14 @@ internal class Application
     {
         while (true)
         {
+            Console.WriteLine("Hello, welcome to the vote application enter command (help or exit)");
             HandleCommand(Console.ReadLine());
         }
     }
 
     private void HandleCommand(string? command)
     {
+       
         command = command?.ToLower();
 
         if (command == "exit")
